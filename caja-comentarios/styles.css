@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+#comment{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#btnSubmit{
+    font-size: 20px;
+    background-color:cornflowerblue;
+    color: white;
+    border: 5px;
+    border-radius: 2px;
+}
+
+#commentList{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#commentList button{
+    font-size: 12px;
+    background-color: rgba(255, 0, 0, 0.816);
+    color: white;
+    border: none;
+    
+}
+
+.comment-item{
+    font-size: 16px;
+}
+
+
